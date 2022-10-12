@@ -1,0 +1,187 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* body{
+    /* background-color: black; 
+} */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat' , sans-serif;
+}
+
+p{
+    font-family: 'Nunito' , sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.r-pad{
+    padding: 50px 0px;
+}
+
+.lg-sec{
+    background-color: #e9e6e6;
+    
+}
+
+
+
+/* navigation  */
+
+nav.r-nav{
+    background: transparent;
+    padding: 20px 0;
+    transition: 0.5s all;
+}
+
+nav .nav-brand{
+    text-decoration: none;
+    font-size: 30px;
+    color: bisque ;
+}
+
+nav .navbar-nav li a{
+    color: rgba(255 , 255 , 255 , 0.8 ) !important;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'nunito' , sans-serif;
+}
+
+nav .navbar-nav li{
+    margin-left: 15px;
+}
+
+nav.r-nav.stickyadd{
+    background: #fff !important;
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05 );
+    transition: 0.5s all ease-in-out;
+} 
+
+nav.stickyadd .nav-brand{
+    color: black;
+    font-size: 40px;
+    transition: 0.5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link{
+    color: #000 !important;
+}
+
+.navbar .down-nav {
+    color: #fff;
+}
+
+nav.stickyadd .down-nav{
+    color: #000;
+}
+
+
+/* header style */
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url('../images/My\ Image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+
+header .header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box{
+    max-width: 700px;
+    color: #fff;
+}
+
+.content-box h5{
+    font-size: 30px;
+
+}
+
+.content-box h1{
+    font-size: 52px;
+}
+
+.content-box a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.content-box a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s all;
+}
+
+
+/* About style */
+
+.about li a{
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.5s all;
+    text-align: center;
+}
+
+.about li a:hover{
+    color: #221fc7;
+}
+
+/* Experiances Style   */
+
+.exp-class .progress{
+    height: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.progress-bar{
+    background-color: blue;
+
+}
+
+.exp-class label{
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* servic style */
+
+.crad,.card-header{
+    background: #f8f9fa;
+}
+
+.crad-header{
+    border: none;
+}
+
+.services-class .card-header i{
+    font-size: 50px;
+}
+
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    background: #e65f78;
+}
